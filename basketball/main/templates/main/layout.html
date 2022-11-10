@@ -1,0 +1,37 @@
+{% load static %}
+<!doctype html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %}</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'main/css/basketball.css' %}">
+
+</head>
+<body>
+<aside>
+  <img src="{% static 'main/img/2.png' %}" alt="Кубань">
+
+    <span class="bool"/><b>Спорткомплекс</br>Локомотив</b></span>
+    </br>
+    </br>
+    </br>
+    <h3 class="navigation">Навигация</h3>
+
+    <ul class="table">
+        <a href="{% url 'home'%}"><li>На главную </li></a>
+        <a href="{% url 'timetable'%}"><li >Расписание тренировок</li></a>
+         <a href=""><li>Тренеры</li></a>
+         <a href=""><li>Контакты</li></a>
+    </ul>
+</aside>
+<main>
+    {% block content %}
+    {% endblock %}
+</main>
+
+</body>
+</html>

@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0043cd2-d50b-4e32-b46d-677b53424be7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/site_basketball/main/urls.py" afterDir="false" />
+    <list default="true" id="a0043cd2-d50b-4e32-b46d-677b53424be7" name="Changes" comment="Добавить приложение и зарегистрировать его">
+      <change afterPath="$PROJECT_DIR$/basketball/main/static/main/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basketball/main/templates/main/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basketball/main/templates/main/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basketball/main/templates/main/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basketball/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_basketball/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/main/static/main/css/basketball.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +29,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/olga/repositories/basketball/basketball/main/static/main/img"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/basketball/main/static/main/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/basketball/main/static/main" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,6 +53,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668069027666</updated>
     </task>
+    <task id="LOCAL-00001" summary="Добавить приложение и зарегистрировать его">
+      <created>1668070367804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668070367804</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -50,5 +73,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавить приложение и зарегистрировать его" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавить приложение и зарегистрировать его" />
   </component>
 </project>
