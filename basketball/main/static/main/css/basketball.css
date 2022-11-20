@@ -61,11 +61,21 @@ main .features button:hover{
     border:solid #619bf2;
 
 }
-main .features #btn-schedule:hover{
+main .features #btn-schedule:hover {
     color:#fff;
     background:#619bf2;
     border:solid #619bf2;
-
+}
 
 main .features h1{front-size:50px;}
 main .features p{margin:20px auto;}
+
+.alert-warning {
+   float:center;
+   background:#dcfaf8;
+   weight:40px;
+   margin 50px;
+   position: relative;
+   text-aling:center;
+   top: 50%;
+}

@@ -7,9 +7,9 @@ class Articles(models.Model):
     full_text=models.TextField('Статья')
     date=models.DateTimeField('Дата публикации')
 
-    def _str_(self):
+    def __str__(self):
         return self.title
 
     class Meta:
         verbose_name='Новость'
-        verbose_name_plural='Новость'
+        verbose_name_plural='Новости'
