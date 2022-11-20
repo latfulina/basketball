@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0043cd2-d50b-4e32-b46d-677b53424be7" name="Changes" comment="Добавить приложение и зарегистрировать его">
-      <change afterPath="$PROJECT_DIR$/basketball/main/static/main/img/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basketball/main/templates/main/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basketball/main/templates/main/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basketball/main/templates/main/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basketball/main/urls.py" afterDir="false" />
+    <list default="true" id="a0043cd2-d50b-4e32-b46d-677b53424be7" name="Changes" comment="Создать новое приложение и подключить URL">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_basketball/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/main/static/main/css/basketball.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketball/main/static/main/css/basketball.css" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/main/static/main/css/basketball.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketball/main/templates/main/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/main/templates/main/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketball/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/main/templates/main/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketball/news/templates/news/news_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/news/templates/news/news_home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2HLevgYd661uVxuyQDmXdmrrGbJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,7 +34,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/olga/repositories/basketball/basketball/main/static/main/img"
+    "last_opened_file_path": "/home/olga/repositories/basketball/basketball/main/static/main/img",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -43,6 +46,29 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/basketball/main/static/main" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="basketball" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basketball/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basketball/main/login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668070367804</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Создать html файлы">
+      <created>1668084527253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668084527253</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Создать новое приложение и подключить URL">
+      <created>1668098765419</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668098765419</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -68,7 +108,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -76,6 +143,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавить приложение и зарегистрировать его" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавить приложение и зарегистрировать его" />
+    <MESSAGE value="Создать html файлы" />
+    <MESSAGE value="Создать новое приложение и подключить URL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создать новое приложение и подключить URL" />
   </component>
 </project>
