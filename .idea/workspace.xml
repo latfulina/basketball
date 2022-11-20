@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0043cd2-d50b-4e32-b46d-677b53424be7" name="Changes" comment="Создать новое приложение и подключить URL">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basketball/main/static/main/css/basketball.css" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/main/static/main/css/basketball.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basketball/main/templates/main/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/main/templates/main/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basketball/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/main/templates/main/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basketball/news/templates/news/news_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/news/templates/news/news_home.html" afterDir="false" />
-    </list>
+    <list default="true" id="a0043cd2-d50b-4e32-b46d-677b53424be7" name="Changes" comment="Добавить таблицу и создать миграцию" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668098765419</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавить таблицу и создать миграцию">
+      <created>1668958266890</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668958266890</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +146,7 @@
     <MESSAGE value="Добавить приложение и зарегистрировать его" />
     <MESSAGE value="Создать html файлы" />
     <MESSAGE value="Создать новое приложение и подключить URL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создать новое приложение и подключить URL" />
+    <MESSAGE value="Добавить таблицу и создать миграцию" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавить таблицу и создать миграцию" />
   </component>
 </project>
