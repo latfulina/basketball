@@ -79,3 +79,9 @@ main .features p{margin:20px auto;}
    text-aling:center;
    top: 50%;
 }
+form {
+    width:500px;
+    margin-top:50px;
+    margin-left:35%;
+
+}
