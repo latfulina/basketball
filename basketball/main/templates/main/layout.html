@@ -13,7 +13,7 @@
 </head>
 <body>
 <aside>
-  <img src="{% static 'main/img/2.png' %}" alt="Кубань">
+    <img src="{% static 'main/img/2.png' %}" alt="Кубань">
 
     <span class="bool"/><b>Спорткомплекс</br>Локомотив</b></span>
     </br>
@@ -22,10 +22,19 @@
     <h3 class="navigation">Навигация</h3>
 
     <ul class="table">
-        <a href="{% url 'home'%}"><li>На главную </li></a>
-        <a href="{% url 'timetable'%}"><li >Расписание тренировок</li></a>
-         <a href="{%url 'news_home'%}"><li>Тренеры</li></a>
-         <a href=""><li>Контакты</li></a>
+        <a href="{% url 'home'%}">
+            <li>На главную</li>
+        </a>
+        <a href="{% url 'timetable'%}">
+            <li>Расписание тренировок</li>
+        </a>
+        <a href="{%url 'news_home'%}">
+            <li>Новости</li>
+        </a>
+        <a href="{%url 'cont'%}">
+            <li>Контакты</li>
+        </a>
+        <a href="{%url 'create'%}"><li><button class="btn btn-info">Добавить запись</button></a>
     </ul>
 </aside>
 <main>
