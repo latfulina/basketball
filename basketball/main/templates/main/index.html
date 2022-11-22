@@ -2,6 +2,8 @@
 {% block title %}Главная страница{%endblock%}
 
 {% block content %}
+
+
 <section>
 	<blockquote>
 		<p>
@@ -22,25 +24,21 @@
 		</figure>
 		<figure>
 			<img src='static/main/img/7.jpg' width="320" height="175" alt="">
-			<figcaption>Пётр<span>Иванович</span></figcaption>
+			<figcaption>Пётр<span>Ветров</span></figcaption>
 		</figure>
 		<figure>
 		<img src='static/main/img/9.jpg' width="320" height="175" alt="">
-		<figcaption>Андрей<span>Иванович</span></figcaption>
+		<figcaption>Андрей<span>Иванов</span></figcaption>
 		</figure>
-
-
+		<figure>
+		<img src='static/main/img/9.jpg' width="320" height="175" alt="">
+		<figcaption>Андрей<span>Иванов</span></figcaption>
+		</figure><br>
 		<a rel="stylesheet" href="{%url 'timetable'%}">
 			<button class="btn btn-warning">Расписание тренировок</button>
 		</a>
-		<footer>
-	<div id="footer">
-		<div id="twitter"></div>
-		<div id="sitemap">dsf</div>
-		<div id="social">dsfgfsdg</div>
-		<div id="footer-logo">fdgfdg</div>
-	</div>
-</footer>
+
 	</div>
 </section>
+
 {%endblock%}

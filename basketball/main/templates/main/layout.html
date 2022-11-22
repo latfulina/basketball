@@ -12,44 +12,39 @@
 
 </head>
 <body>
-<div class="wrapper">
-    <header></header>
-    <div class="heading"></div>
-    <aside>
+<aside>
     <img src="{% static 'main/img/2.png' %}" alt="Кубань">
 
     <span class="bool"/><b>Спорткомплекс Локомотив</b></span>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
+
     <h3 class="navigation">Навигация</h3>
 
     <ul class="table">
-        <a href="{% url 'home'%}">
-            <li>На главную</li>
-        </a>
-        <a href="{% url 'timetable'%}">
-            <li>Расписание тренировок</li>
-        </a>
-        <a href="{%url 'news_home'%}">
-            <li>Новости</li>
-        </a>
-        <a href="{%url 'cont'%}">
-            <li>Контакты</li>
-        </a>
+        <a href="{% url 'home'%}"><li>На главную</li></a>
+        <a href="{% url 'timetable'%}"><li>Расписание тренировок</li></a>
+        <a href="{%url 'news_home'%}"><li>Новости</li></a>
+        <a href="{%url 'cont'%}"><li>Контакты</li></a>
         <a href="{%url 'create'%}"><li><button class="btn btn-info">Добавить запись</button></a>
     </ul>
 
 </aside>
-
-	</div>
-
 <main>
     {% block content %}
     {% endblock %}
 </main>
+	<footer>
+			<div id="footer">
+				<div id="details"><details>
+					<summary> Как записаться на тренировку по баскетболу?</summary>
+					<p> Переходи на сайт http://127.0.0.1:8000/training/</p>
+				</details></div>
+                <br>
+                	<div id="detail"><details>
+					<summary> Как записаться на тренировку по баскетболу?</summary>
+					<p> Переходи на сайт http://127.0.0.1:8000/training/</p>
+				</details></div>
 
+			</div>
+		</footer>
 </body>
 </html>
