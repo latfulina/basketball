@@ -12,7 +12,11 @@
 
 </head>
 <body>
-<aside>
+<div class="wrapper">
+    <header></header>
+    <nav></nav>
+    <div class="heading"></div>
+    <aside>
     <img src="{% static 'main/img/2.png' %}" alt="Кубань">
 
     <span class="bool"/><b>Спорткомплекс</br>Локомотив</b></span>
@@ -37,6 +41,9 @@
         <a href="{%url 'create'%}"><li><button class="btn btn-info">Добавить запись</button></a>
     </ul>
 </aside>
+    <section></section>
+	</div>
+	<footer></footer>
 <main>
     {% block content %}
     {% endblock %}

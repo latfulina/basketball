@@ -8,17 +8,17 @@ def news_home(request):
 def create(request):
     error=''
     if request.method=="POST":
-        form= ArticlesForm(request.POST)
+        form = ArticlesForm(request.POST)
         if form.is_valid():
             form.save()
-            return  redirect('/news')
+            return redirect('/news')
 
         else:
-            error='Форма была неверной'
+            error = 'Форма была неверной'
     form = ArticlesForm()
 
-    data= {
-     'form':form,
+    data = {
+     'form': form,
      'error': error
 
     }

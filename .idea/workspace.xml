@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0043cd2-d50b-4e32-b46d-677b53424be7" name="Changes" comment="Добавить таблицу и создать миграцию" />
+    <list default="true" id="a0043cd2-d50b-4e32-b46d-677b53424be7" name="Changes" comment="Создать таблицу для записи на тренировку">
+      <change beforePath="$PROJECT_DIR$/.idea/basketball.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/basketball.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketball/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketball/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/main/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketball/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketball/main/static/main/css/basketball.css" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/main/static/main/css/basketball.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketball/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/main/templates/main/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketball/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketball/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basketball/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/basketball/news/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,15 +36,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/olga/repositories/basketball/basketball/main/static/main/img",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/olga/repositories/basketball/basketball/main/static/main/img&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/basketball/main/static/main/img" />
@@ -101,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668958266890</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Создать таблицу для записи на тренировку">
+      <created>1669065690544</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669065690544</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +166,7 @@
     <MESSAGE value="Создать html файлы" />
     <MESSAGE value="Создать новое приложение и подключить URL" />
     <MESSAGE value="Добавить таблицу и создать миграцию" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавить таблицу и создать миграцию" />
+    <MESSAGE value="Создать таблицу для записи на тренировку" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создать таблицу для записи на тренировку" />
   </component>
 </project>
