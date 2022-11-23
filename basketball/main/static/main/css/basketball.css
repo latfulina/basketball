@@ -6,9 +6,11 @@ aside{
     float:left;
     background:#c5edea;
     width:20%;
-    height:100vh;
+    height:200vh;
     color:#080a0a;
     border-right: 5px solid #b6d6d4;
+    font-family: 'Oswald', sans-serif;
+
 
 }
 aside img {
@@ -16,18 +18,16 @@ aside img {
     float:left;
   }
 aside .bool{
-    font-size:20px;
+    font-size:34px;
     margin-left:10px;
-    front-weight:bold;
-    position: relative;
-    top:17px
-    }
-aside .navigation{
-    font-size:18px;
-    margin-top:10px;
-    front-weight:bold;
-    margin-left:30px;
+    font-family: 'Oswald', sans-serif;
 
+}
+aside .navigation{
+    font-size:20px;
+    margin-top:10px;
+    margin-left:30px;
+    font-family: 'Oswald', sans-serif;
 
 }
 aside ul a {
@@ -39,6 +39,7 @@ aside ul li:hover{
     transform:scale(1.10);
     transition: transform .5s ease;
     front-size:30px;
+    font-family: 'Oswald', sans-serif;
 }
 main .features {
     float:left;
@@ -48,11 +49,6 @@ main .features {
     text-align:center;
 
 }
-
-chief{
-    text-align:left;
-}
-
 main .features button{
     background:#8bb0e8;
     border:solid #89b2f0;
@@ -89,6 +85,7 @@ main .features p{margin:20px auto;}
    text-aling:center;
    top: 50%;
 }
+
 form {
     width:500px;
     margin-top:50px;
@@ -140,7 +137,7 @@ figure figcaption {
 figure figcaption span {
 	display: block;
 	font-size: 15px;
-	color: #29c5e6;
+	color: black;
 }
 section figure + figure {
 	margin-left: 28px;
@@ -167,17 +164,42 @@ footer {
     position:fixed;
     left:20%;
     bottom:0px;
-    height:90px;
+    height:150px;
     width:80%;
     background:#ace5e3;
-   }
+ }
 
 #footer {
     max-width: 960px;
-	margin:auto;
+	margin-left:0;
 	padding: 10px 0;
 	height: 60px;
-	}
+	color:black;
+}
+table {
+    font-family: 'Oswald', Sans-Serif;
+    text-align: center;
+    border-collapse: collapse;
+    background: #dadfe0;
+    border-radius: 80px;
+    width:700px;
+    height:700px;
+    margin-left:25%;
 
+}
+th {
+    font-size: 22px;
+    font-weight: 300;
+    padding: 12px 10px;
+    border-bottom: 2px solid #3bcded;
+    color: #bcded;
+}
+tbody tr:nth-child(2) {
+border-bottom: 2px solid #3bcded;
+}
+td {
+    padding: 10px;
+    color: black;
+}
 
 
